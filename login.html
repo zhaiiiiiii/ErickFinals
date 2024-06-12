@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessX Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="hero">
+    <div class="container">
+        <h2>Welcome to FitnessX Gym</h2>
+        <p>Get fit, stay healthy!</p>
+        <a href="login.html" class="btn">Join Now</a>
+    </div>
+</section>
+<head>
+        <title>Return Button</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="home.html"class="hme">Home</a></li>
+                <li><a href="programs.html"class="prgm">Programs</a></li>
+                <li><a href="about.html"class="abt">About</a></li>
+                <li><a href="blog.html"class="blg">Blog</a></li>
+                <li><a href="contact.html" class="cntct">Contact</a></li>
+            </ul>
+        </nav>
+            <button class=return-button onclick="goBack()">Return</button>
+                <script>
+                        function goBack() {
+                            window.history.back();
+                        }
+                    </script>
+            
+            </body>
+
+<section class="login-form">
+    <div class="container">
+        <h2>Login</h2>
+        <form action="home.html" method="POST">
+            <div class="form-group">
+                <label for="username">Username or Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
